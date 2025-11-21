@@ -1,5 +1,7 @@
 # KumoMTA-UI
 
+> ⚠️ **Warning**: This project is an AI-generated demo project with no actual functionality.
+
 A modern, responsive web interface for managing KumoMTA email servers. Real-time monitoring, AI-enhanced search, and comprehensive queue management.
 
 ## Features
