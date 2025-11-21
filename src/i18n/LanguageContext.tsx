@@ -1,4 +1,4 @@
-import { createContext, useState } from 'react';
+import { createContext, useState, type ReactNode } from 'react';
 import { translations } from './translations';
 
 export type Language = 'en' | 'zh';
@@ -14,7 +14,7 @@ export const LanguageContext = createContext<LanguageContextType | undefined>(un
 const STORAGE_KEY = 'language';
 
 interface LanguageProviderProps {
-  children: JSX.Element | JSX.Element[];
+  children: ReactNode;
 }
 
 export function LanguageProvider({ children }: LanguageProviderProps) {
